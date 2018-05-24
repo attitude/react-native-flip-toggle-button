@@ -127,6 +127,8 @@ class FlipToggle extends React.Component {
     }
     if (!toggleProps.margin) {
       margin = parseInt(0.02 * toggleProps.buttonWidth);
+    } else {
+      margin = toggleProps.margin;
     }
     let dimensions = {
       buttonWidth: toggleProps.buttonWidth,
